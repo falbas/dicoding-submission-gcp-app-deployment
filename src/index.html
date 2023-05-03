@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        
+        <h1>Farhan Alba Saputra</h1>
+        <p>
+          <a href="mailto:farhanalbas30@gmail.com">farhanalbas30@gmail.com</a> |
+          <a href="https://www.linkedin.com/in/farhanalbas"
+            >https://www.linkedin.com/in/farhanalbas</a
+          >
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" onclick="toggleElement('pengalaman')">Pengalaman</a>
+          </li>
+          <li>
+            <a href="#" onclick="toggleElement('pendidikan')">Pendidikan</a>
+          </li>
+          <li>
+            <a href="#" onclick="toggleElement('keterampilan')">Keterampilan</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <article id="pengalaman" class="card active-tab">
+          <h2>Pengalaman</h2>
+          <!-- item pengalaman -->
+        </article>
+        <article id="pendidikan" class="card hidden">
+          <h2>Pendidikan</h2>
+          <!-- item pendidikan -->
+        </article>
+        <article id="keterampilan" class="card hidden">
+          <h2>Keterampilan</h2>
+          <!-- item keterampilan -->
+        </article>
+      </div>
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Profil</h2>
+            <figure>
+              <img src="https://storage.googleapis.com/dicoding-385600-bucket/profil.jpg" alt="foto profil" />
+              <figcaption>Farhan Alba Saputra</figcaption>
+            </figure>
+          </header>
+          <article>
+            <p>
+              Saya Farhan Alba Saputra, bisa menggunakan frontend dan backend
+              web framework seperti ReactJS dan HapiJS. Serta bisa menggunakan
+              beberapa Automation Tools seperti Selenium, Cypress, dan
+              Playwright.
+            </p>
+          </article>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        My Profile &#169; 2022, <a href="https://github.com/falbas">falbas</a>
+      </p>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
